@@ -30,3 +30,51 @@ header, .experience {
 	border: 2px solid #E13A63;
 	padding: 10px;
 }
+
+@media screen and (max-width: 320px) {
+	.main-content, section.experience {
+		margin: 2px;
+	}
+
+	section.experience {
+		width: 91%;
+		margin: 2px;
+	}
+
+	#headshot {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: auto;
+	}
+
+	h3 {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 770px) {
+	div.left {
+		vertical-align: top;
+		display: block;
+		width: 100%;
+	}
+
+	div.right {
+		vertical-align: bottom;
+		width: 100%;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	section.right, section.left {
+		display: block;
+		float: none;
+		vertical-align: top;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		width: 100%;
+	}
+}

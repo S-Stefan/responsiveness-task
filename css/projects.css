@@ -18,3 +18,50 @@
 	display: block;
 	margin: 0 auto;
 }
+
+@media screen and (max-width: 320px){
+  #headshot, h1 {
+    display: none;
+  }
+
+  h2, p {
+    text-align: center;
+  }
+
+  div.main-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+    padding: 2px;
+  }
+
+  div.tile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  #headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  div.tile {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+  }
+
+  img.screenshot {
+    display: none;
+  }
+}
